@@ -1,21 +1,21 @@
 ###############################################
 ### SETUP ###
 import codesters
+
 from codesters import StageClass
 stage = StageClass()
 ###############################################
 
 
-stage.set_background("spring")
+stage.set_background("summer")
 mySprite = codesters.Sprite("cardinal")
-mySprite.say("Good job finding me!")
+mySprite.say("Hello")
 
 
 print("Welcome to CT8!")
 print("Great job correctly setting up this codespace")
 print("We will be using this site for the majority of the projects for this class")
 print("Make sure you bookmark this page using the STAR icon in the top right corner of your browser")
-input("\n---Press Enter when you have bookmarked the page---\n")
 
 
 print("\n\n")
