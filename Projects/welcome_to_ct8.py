@@ -6,23 +6,10 @@ stage = StageClass()
 ###############################################
 
 
-stage.set_background("spring")
-mySprite = codesters.Sprite("cardinal")
-mySprite.say("Good job finding me!")
-
-
-print("Welcome to CT8!")
-print("Great job correctly setting up this codespace")
-print("We will be using this site for the majority of the projects for this class")
-print("Make sure you bookmark this page using the STAR icon in the top right corner of your browser")
-input("\n---Press Enter when you have bookmarked the page---\n")
-
-
-print("\n\n")
-print("Now, try to view the display screen")
-print("To view the display screen:")
-print("\t1: click PORTS on the menu bar above this text")
-print("\t2: move your mouse over the words in blue that start with https://")
-print("\t3: a few icons should appear - click the globe")
-print("\t4: a new tab will open - click CONNECT")
+stage.set_background("summer")
+mySprite = codesters.Sprite("fish")
+mySprite.say("fish")
 print("\n\nWhen you have found the CARDINAL, click here, then use CTRL C to end the program\n\n")
+mysprite2 = codesters.Sprite ("football", -50 ,50)
+mysprite2.set_size(0.5)
+mysprite3. codesters.Sprite("football2", -100,100)
