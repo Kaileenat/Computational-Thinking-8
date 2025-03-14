@@ -6,11 +6,11 @@ stage = StageClass()
 ###############################################
 
 
-stage.set_background("spring")
-mySprite = codesters.Sprite("cardinal")
+stage.set_background("barn.png")
+mySprite = codesters.Sprite("applecore.gif")
 mySprite.say("Good job finding me!")
 
-
+mySprite2=codesters.Sprite("baseball",5,5)
 print("Welcome to CT8!")
 print("Great job correctly setting up this codespace")
 print("We will be using this site for the majority of the projects for this class")
