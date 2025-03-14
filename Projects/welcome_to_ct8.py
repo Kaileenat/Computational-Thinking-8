@@ -6,16 +6,16 @@ stage = StageClass()
 ###############################################
 
 
-stage.set_background("barn.png")
-mySprite = codesters.Sprite("applecore.gif")
-mySprite.say("Good job finding me!")
+stage.set_background("barn")
+mySprite = codesters.Sprite("applecore")
+mySprite.say("Good job you found me!")
+mySprite=codesters.Sprite("applecore",50,50)
+mySprite=codesters.Spite("applecore",72,35)
 
-mySprite2=codesters.Sprite("baseball",5,5)
 print("Welcome to CT8!")
 print("Great job correctly setting up this codespace")
 print("We will be using this site for the majority of the projects for this class")
 print("Make sure you bookmark this page using the STAR icon in the top right corner of your browser")
-input("\n---Press Enter when you have bookmarked the page---\n")
 
 
 print("\n\n")
