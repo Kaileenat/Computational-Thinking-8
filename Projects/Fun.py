@@ -1,9 +1,11 @@
-import.randint(1, 100)
+import random
+Number = random.randint(1, 100)
+
 
 def BigRedHippo():
 
     print("Type A Number Between 1, 100")
 
-    if input = > 
+    print(Number)
 
 BigRedHippo()
