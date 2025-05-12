@@ -4,13 +4,15 @@ import turtle
 # ###############################################
 
 t = turtle.Turtle()
-
+#Drawing
 t.penup()
 t.goto(-100, -100)
+#color
 t.color("blue")
 t.pendown()
 
-# repeat these next two lins  times
+#moving
+# repeat these next two lines  times
 for i in range(4):
     t.forward(100)
     t.left(100)
