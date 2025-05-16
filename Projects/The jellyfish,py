@@ -29,12 +29,27 @@ window.tracer(0)
 s1 = create_sprite("spongebob",0,-160)
 
 # TODO - set your background
-set_background("sand.png")
-create_sprite("spongebob")
+set_background("sand")
+
 # TODO - set the starting value for your variable
 
 # Section 3: Controls
 # TODO - define your controls
+def move_up():
+	s1.setheading (0,0)
+	s1.forward (1)
+def move_down():
+	s1.setheading(0,0)
+	s1.forward (1)
+def move_left():
+	s1.setheading(0,0)
+	s1.forward (1)
+def move_right():
+	s1.setheading(0,0)
+	s1.forward (1)
+	
+
+
 # TODO - pick keys for each control
 
 # Section 4: Game Loop
@@ -43,13 +58,17 @@ timer = 0
 while True:
 	time.sleep(0.1)
 	timer += 1  
-	 
-    
+
+
+	if timer > 600:
+		break
+
+
+
  	# TODO - code for automatic actions
 
 
-
-
+	break
 
 
 	window.update()
